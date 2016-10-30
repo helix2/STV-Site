@@ -1,0 +1,84 @@
+@charset "UTF-8";
+#wrapper {
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+body {
+	font-family: lato;
+	font-style: normal;
+	font-weight: 300;
+}
+.featureBG {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.marginTopBot {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.marginTop {
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.marginBot {
+}
+p {
+	font-weight: 300;
+	font-size: 18px;
+}
+h1   , h2  {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 38px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.description {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.btn {
+	background-color: #66943E;
+	border-width: 0px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.btnLight {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.wrapper {
+	text-align: center;
+}
+.jumboUpdate {
+	border-radius: 0px;
+}
+.featureBGmid {
+	background-color: #EEEEEE;
+}
+.featureBGlight {
+	background-color: #FFFFFF;
+}
+.featureBGbrand {
+	background-color: #66943E;
+}
+.light {
+	color: #FFFFFF;
+}
+.cent {
+}
+.img-responsive {
+	max-width: 90%;
+}
+.paddingZeroBot {
+	padding-bottom: 0px;
+}
+.checklist {
+	max-width: 750px;
+	text-align: center;
+}
