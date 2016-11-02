@@ -8,11 +8,12 @@ body {
 	font-family: lato;
 	font-style: normal;
 	font-weight: 300;
+	background-color: #66943E;
 }
 .featureBG {
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 60px;
 }
 .marginTopBot {
 	margin-top: 40px;
@@ -23,19 +24,23 @@ body {
 	margin-bottom: 0px;
 }
 .marginBot {
+	margin-bottom: 40px;
 }
 p {
 	font-weight: 300;
 	font-size: 18px;
 }
-h1   , h2  {
-	font-weight: 300;
-	text-transform: uppercase;
-}
 h2 {
 	font-size: 38px;
 	margin-left: 10%;
 	margin-right: 10%;
+}
+.navbar {
+	background-color: rgba(255,255,255,0.95);
+}
+h1   , h2  {
+	font-weight: 200;
+	text-transform: uppercase;
 }
 .description {
 	margin-left: 10%;
@@ -50,7 +55,7 @@ h2 {
 }
 .btnLight {
 	background-color: #FFFFFF;
-	color: #000000;
+	color: #66943E;
 }
 .wrapper {
 	text-align: center;
@@ -67,6 +72,9 @@ h2 {
 .featureBGbrand {
 	background-color: #66943E;
 }
+.featureBGTop {
+	padding-top: 10px;
+}
 .light {
 	color: #FFFFFF;
 }
@@ -82,3 +90,16 @@ h2 {
 	max-width: 750px;
 	text-align: center;
 }
+
+@media screen and (max-width:767px){
+.mobileText {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 20px;
+	text-align: center;
+}
+body {
+	background-color: #FF0004;
+
+}
+
